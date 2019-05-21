@@ -18,6 +18,6 @@ void main()
             }
         }
     }
-    printf("%d",temp);
+    printf("%d",arr[9]);
 }
     
