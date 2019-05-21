@@ -8,11 +8,11 @@ import java.util.*;
          int count=0;
          Scanner sc=new Scanner(System.in);
          str=sc.nextLine();
-       char str1[]=str.toCharArray();
+       char b[]=str.toCharArray();
         str = str.replaceAll("\\s", ""); 
-       for(int i=0;i<str1.length;i++)
+       for(int i=0;i<b.length;i++)
     {
-        if(str1[i]==' ')
+        if(b[i]==' ')
         {
             count++;
         }
